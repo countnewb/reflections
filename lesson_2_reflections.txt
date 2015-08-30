@@ -1,0 +1,39 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository, git creates a .git directory, and lets you know that
+the repository is empty. You need to initialize the repository so git is set up to track files
+that you later add to it.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area isn't a storage place; it's a place to organize material to be committed. The value is
+that it provides a space to organize your commit, including which files are to be included, and allows
+you to easily change your mind about what to commit, so you can add/remove files without needing to 
+directly affect the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can compare contents of staging area to working directory, to confirm that what you're about
+to commit is one logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches help keep history organized when experimenting with new features or functionality. Branches allow 
+exploration of options, while easily preservering the master branch. 
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams make it easy to tell what is reachable, and where each branch joins each other branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches is that all commits in both branches become part of the merged branch, interleaved 
+by time of commit. We represent them in the diagram so it's clear all prior commits are reachable from the merged
+commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging saves time where there isn't any confusion about whether particular changes
+can be merged. The con is that Git could be wrong, though this appears unlikely because it
+generally asks for manual correction if there's any chance of confusion.
+
