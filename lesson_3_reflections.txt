@@ -7,5 +7,7 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Other users may have pushed content to Github, and I may not want their updates.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
+A fork is making a copy of someone else's repository in your own account on Github (so you don't muck up their repository). Cloning is making a copy of a repository, other than forking (for making a copy of a github or other repository). A branch is a new part of an existing repository (e.g., new features, experiments)
 
