@@ -16,4 +16,8 @@ What is the benefit of having a copy of the last known state of the remote store
 In case you don't have ready access to the remote, and want to know what the effect of pushing changes would 
 be, whether conflicts may need to be resolved, etc.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+You could email stuff to each other or use dropbox, or work collaboratively with toold like Google Docs. Github is likely
+easier, because it's set up to provide diffs, manage coding workflow, etc.
 
